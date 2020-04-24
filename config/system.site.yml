@@ -1,0 +1,14 @@
+uuid: 7fa80c76-4b98-460b-b585-2680c4cc53fe
+name: d8-yury-megasite
+mail: yuri.pochepko@pantheon.io
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
