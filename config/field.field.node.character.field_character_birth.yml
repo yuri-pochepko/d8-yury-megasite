@@ -1,0 +1,19 @@
+uuid: 888c8198-0774-407e-a188-f438869202fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_character_birth
+    - node.type.character
+id: node.character.field_character_birth
+field_name: field_character_birth
+entity_type: node
+bundle: character
+label: Birth
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

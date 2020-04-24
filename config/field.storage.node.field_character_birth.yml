@@ -1,0 +1,21 @@
+uuid: d16a72ba-05f9-46ee-889a-d074137262ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_character_birth
+field_name: field_character_birth
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

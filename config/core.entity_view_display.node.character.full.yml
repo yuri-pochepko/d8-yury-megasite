@@ -1,0 +1,88 @@
+uuid: 265d5f7e-bb75-4b70-a93b-8c3b1aa41214
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.character.body
+    - field.field.node.character.field_character_birth
+    - field.field.node.character.field_character_death
+    - field.field.node.character.field_character_gender
+    - field.field.node.character.field_character_race
+    - field.field.node.character.field_character_realm
+    - field.field.node.character.field_character_wiki
+    - node.type.character
+  module:
+    - link
+    - text
+    - user
+id: node.character.full
+targetEntityType: node
+bundle: character
+mode: full
+content:
+  body:
+    type: text_default
+    weight: 6
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_character_birth:
+    type: string
+    weight: 3
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_character_death:
+    type: string
+    weight: 4
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_character_gender:
+    type: string
+    weight: 5
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_character_race:
+    type: string
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_character_realm:
+    type: string
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_character_wiki:
+    type: link
+    weight: 7
+    region: content
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

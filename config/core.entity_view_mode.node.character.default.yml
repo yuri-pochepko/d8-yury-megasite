@@ -1,0 +1,21 @@
+uuid: eef32bb1-6eb2-4a6d-803a-ac1f74ff8b55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.character.body
+    - field.field.node.character.field_character_birth
+    - field.field.node.character.field_character_death
+    - field.field.node.character.field_character_gender
+    - field.field.node.character.field_character_race
+    - field.field.node.character.field_character_realm
+    - field.field.node.character.field_character_wiki
+    - node.type.character
+  module:
+    - link
+    - text
+    - user
+id: node.character.default
+label: null
+targetEntityType: node
+cache: true

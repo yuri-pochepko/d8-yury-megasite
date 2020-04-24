@@ -1,0 +1,19 @@
+uuid: 0e5b5122-bbd2-476f-ac7d-2fb4f766ee63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_character_death
+    - node.type.character
+id: node.character.field_character_death
+field_name: field_character_death
+entity_type: node
+bundle: character
+label: Death
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

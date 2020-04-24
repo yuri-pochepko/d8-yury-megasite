@@ -1,0 +1,46 @@
+uuid: f68ea32c-0ca2-449b-abcd-eb8fc7f31e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.character.body
+    - field.field.node.character.field_character_birth
+    - field.field.node.character.field_character_death
+    - field.field.node.character.field_character_gender
+    - field.field.node.character.field_character_race
+    - field.field.node.character.field_character_realm
+    - field.field.node.character.field_character_wiki
+    - node.type.character
+  module:
+    - link
+    - user
+id: node.character.teaser
+targetEntityType: node
+bundle: character
+mode: teaser
+content:
+  field_character_wiki:
+    type: link
+    weight: 1
+    region: content
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_character_birth: true
+  field_character_death: true
+  field_character_gender: true
+  field_character_race: true
+  field_character_realm: true
