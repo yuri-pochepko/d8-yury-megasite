@@ -1,0 +1,89 @@
+uuid: 06f44c7d-3f08-4643-ab69-3acbfa4fec73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_character_birth
+    - field.storage.node.field_character_death
+    - field.storage.node.field_character_gender
+    - field.storage.node.field_character_race
+    - field.storage.node.field_character_realm
+    - field.storage.node.field_character_wiki
+    - search_api.server.pantheon
+  module:
+    - search_api
+    - node
+id: lotr
+name: LOTR
+description: ''
+read_only: false
+field_settings:
+  field_character_birth:
+    label: Birth
+    datasource_id: 'entity:node'
+    property_path: field_character_birth
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_character_birth
+  field_character_death:
+    label: Death
+    datasource_id: 'entity:node'
+    property_path: field_character_death
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_character_death
+  field_character_gender:
+    label: Gender
+    datasource_id: 'entity:node'
+    property_path: field_character_gender
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_character_gender
+  field_character_race:
+    label: Race
+    datasource_id: 'entity:node'
+    property_path: field_character_race
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_character_race
+  field_character_realm:
+    label: Realm
+    datasource_id: 'entity:node'
+    property_path: field_character_realm
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_character_realm
+  field_character_wiki:
+    label: Wiki
+    datasource_id: 'entity:node'
+    property_path: field_character_wiki
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_character_wiki
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: false
+      selected:
+        - character
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  language_with_fallback: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: pantheon
