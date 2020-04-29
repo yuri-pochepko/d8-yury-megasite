@@ -1,0 +1,19 @@
+uuid: e6c6c0f4-6517-4809-8a9b-6cb32de5f5b6
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_character_wiki
+field_name: field_character_wiki
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

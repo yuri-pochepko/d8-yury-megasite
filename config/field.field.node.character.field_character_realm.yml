@@ -1,0 +1,19 @@
+uuid: 6b8af105-0535-4496-8983-edf4d840d816
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_character_realm
+    - node.type.character
+id: node.character.field_character_realm
+field_name: field_character_realm
+entity_type: node
+bundle: character
+label: Realm
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 510933b6-55bb-4274-a1e0-6c10b7827494
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.character.body
+    - field.field.node.character.field_character_birth
+    - field.field.node.character.field_character_death
+    - field.field.node.character.field_character_gender
+    - field.field.node.character.field_character_race
+    - field.field.node.character.field_character_realm
+    - field.field.node.character.field_character_wiki
+    - node.type.character
+  module:
+    - link
+    - user
+id: node.character.teaser
+label: null
+targetEntityType: node
+cache: true

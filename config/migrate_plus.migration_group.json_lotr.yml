@@ -1,0 +1,10 @@
+uuid: 8e948d5c-109a-4fd9-a879-f0fbb322b4e8
+langcode: en
+status: true
+dependencies: {  }
+id: json_lotr
+label: 'JSON LOTR Migration'
+description: 'Get Lord of Rings characters into your site'
+source_type: ''
+module: null
+shared_configuration: null

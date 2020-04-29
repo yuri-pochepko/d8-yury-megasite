@@ -1,0 +1,33 @@
+uuid: f7754706-42d2-4eb6-9b06-9e359e14bec2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.character.body
+    - field.field.node.character.field_character_birth
+    - field.field.node.character.field_character_death
+    - field.field.node.character.field_character_gender
+    - field.field.node.character.field_character_race
+    - field.field.node.character.field_character_realm
+    - field.field.node.character.field_character_wiki
+    - node.type.character
+  module:
+    - user
+id: node.character.default
+targetEntityType: node
+bundle: character
+mode: default
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_character_birth: true
+  field_character_death: true
+  field_character_gender: true
+  field_character_race: true
+  field_character_realm: true
+  field_character_wiki: true

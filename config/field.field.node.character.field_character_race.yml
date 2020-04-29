@@ -1,0 +1,19 @@
+uuid: d6446292-1817-42bf-8f0a-ee7889a52ce5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_character_race
+    - node.type.character
+id: node.character.field_character_race
+field_name: field_character_race
+entity_type: node
+bundle: character
+label: Race
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
